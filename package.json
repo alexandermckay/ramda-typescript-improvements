@@ -2,10 +2,7 @@
   "name": "ramda-typescript-improvements",
   "version": "0.0.1",
   "description": "Improvement Ramda Typescript Support",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "playground.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/alexandermckay/ramda-typescript-improvements.git"
@@ -21,5 +18,21 @@
   "bugs": {
     "url": "https://github.com/alexandermckay/ramda-typescript-improvements/issues"
   },
-  "homepage": "https://github.com/alexandermckay/ramda-typescript-improvements#readme"
+  "homepage": "https://github.com/alexandermckay/ramda-typescript-improvements#readme",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "@types/ramda": "^0.27.40",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.29.0",
+    "nodemon": "^2.0.7",
+    "ramda": "^0.27.1",
+    "ts-node": "^10.0.0"
+  },
+  "dependencies": {
+    "typescript": "^4.3.4"
+  }
 }
