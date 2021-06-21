@@ -11,3 +11,4 @@
 - Each file (such as `src/types/isNil`) should either show:
   - How the function can be used in a point-free or partially-applied manner
   - How the function types are restricting the function from being used in a point-free or partially-applied manner and detail changes to the type signature that would fix it.
+  - How the types could be improved to provide greater type safety
