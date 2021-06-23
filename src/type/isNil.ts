@@ -1,12 +1,15 @@
-import {always, identity, ifElse, isNil} from "ramda"
-import {log} from "../utils"
+import {ifElse, isNil} from "ramda"
 
 /**
  * @name isNil
  * @summary No action required
  */
 
-const fn = ifElse(isNil, always("Bad Value"), identity)
+const fn = ifElse(
+	isNil,
+	() => "Bad Value",
+	() => "Good Value"
+)
 
-log(fn(null))
-log(fn("10"))
+fn(null)
+fn("10")

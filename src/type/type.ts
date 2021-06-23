@@ -1,5 +1,4 @@
 import {compose, toLower, type} from "ramda"
-import {log} from "src/utils"
 
 /**
  * @name type
@@ -8,5 +7,5 @@ import {log} from "src/utils"
 
 const fn = compose(toLower, type)
 
-log(fn("Hello"))
-log(fn(null))
+fn("Hello")
+fn(null)
